@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Test</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="loadGame();">
+    <div class="ui">
+        <div id="board" class="board"></div>
+        <div class="menu">
+            <div>
+                <div class="action">
+                    <button type="button" class="resetButton" onclick="resetBoard()">Reset board</button>
+                </div>
+                <div class="information">
+                    <div class="player">
+                        <b>First player score:</b>
+                        <b id="Player1"></b>
+                    </div>
+                    <div class="player">
+                        <b>Second player score:</b>
+                        <b id="Player2"></b>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="backMenu">
+            <button type="button" class="resetButton" onclick="resetGame()">Reset game</button>
+            <button type="button" class="resetButton" onclick="playWithAI()">With AI</button>
+        </div>
+    </div>
+</body>
+
+</html>
