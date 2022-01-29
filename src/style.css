@@ -4,6 +4,9 @@
   height: fit-content;
   width: fit-content;
   display: flex;
+  position: absolute;
+  left: calc(50% - 450px);
+  top: calc(50% - 225px);
 }
 
 .board {
